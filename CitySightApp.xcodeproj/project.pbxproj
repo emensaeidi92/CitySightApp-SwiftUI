@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F835C7F0273237EA0019CC64 /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F835C7EF273237EA0019CC64 /* DirectionsView.swift */; };
+		F835C7F4273239620019CC64 /* BusinessTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F835C7F3273239620019CC64 /* BusinessTitle.swift */; };
+		F835C7F82732411B0019CC64 /* DirectionsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F835C7F72732411B0019CC64 /* DirectionsMap.swift */; };
+		F84AD0882701260B00E519A7 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84AD0872701260B00E519A7 /* Business.swift */; };
+		F84AD08B2701269B00E519A7 /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84AD08A2701269B00E519A7 /* BusinessSearch.swift */; };
+		F84AD08F27012C0600E519A7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84AD08E27012C0600E519A7 /* Constants.swift */; };
+		F86C1D5126F9618500BA2418 /* CitySightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86C1D5026F9618500BA2418 /* CitySightApp.swift */; };
+		F86C1D5326F9618500BA2418 /* LunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86C1D5226F9618500BA2418 /* LunchView.swift */; };
+		F86C1D5526F9618700BA2418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86C1D5426F9618700BA2418 /* Assets.xcassets */; };
+		F86C1D5826F9618700BA2418 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86C1D5726F9618700BA2418 /* Preview Assets.xcassets */; };
+		F86C1D6726F9631B00BA2418 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86C1D6626F9631B00BA2418 /* ContentModel.swift */; };
+		F8908A122703F751006F92AC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8908A112703F751006F92AC /* HomeView.swift */; };
+		F8908A1727042197006F92AC /* BusinessListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8908A1627042197006F92AC /* BusinessListView.swift */; };
+		F8908A1A27042969006F92AC /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8908A1927042969006F92AC /* SectionHeaderView.swift */; };
+		F8908A1D270D4285006F92AC /* BusinessRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8908A1C270D4285006F92AC /* BusinessRowView.swift */; };
+		F8908A2027128CA4006F92AC /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8908A1F27128CA4006F92AC /* ImageLoader.swift */; };
+		F8908A2327151FF7006F92AC /* BusinessDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8908A2227151FF7006F92AC /* BusinessDetailView.swift */; };
+		F8908A27271692B6006F92AC /* BusinessMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8908A26271692B6006F92AC /* BusinessMapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F835C7EF273237EA0019CC64 /* DirectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
+		F835C7F3273239620019CC64 /* BusinessTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTitle.swift; sourceTree = "<group>"; };
+		F835C7F72732411B0019CC64 /* DirectionsMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsMap.swift; sourceTree = "<group>"; };
+		F84AD0872701260B00E519A7 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		F84AD08A2701269B00E519A7 /* BusinessSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearch.swift; sourceTree = "<group>"; };
+		F84AD08E27012C0600E519A7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F86C1D4D26F9618500BA2418 /* CitySightApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitySightApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86C1D5026F9618500BA2418 /* CitySightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySightApp.swift; sourceTree = "<group>"; };
+		F86C1D5226F9618500BA2418 /* LunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchView.swift; sourceTree = "<group>"; };
+		F86C1D5426F9618700BA2418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F86C1D5726F9618700BA2418 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F86C1D5926F9618700BA2418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F86C1D6626F9631B00BA2418 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		F8908A112703F751006F92AC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F8908A1627042197006F92AC /* BusinessListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessListView.swift; sourceTree = "<group>"; };
+		F8908A1927042969006F92AC /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		F8908A1C270D4285006F92AC /* BusinessRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRowView.swift; sourceTree = "<group>"; };
+		F8908A1F27128CA4006F92AC /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		F8908A2227151FF7006F92AC /* BusinessDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailView.swift; sourceTree = "<group>"; };
+		F8908A26271692B6006F92AC /* BusinessMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F86C1D4A26F9618500BA2418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F835C7F22732394D0019CC64 /* Title */ = {
+			isa = PBXGroup;
+			children = (
+				F835C7F3273239620019CC64 /* BusinessTitle.swift */,
+			);
+			path = Title;
+			sourceTree = "<group>";
+		};
+		F84AD08D27012BF300E519A7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F84AD08E27012C0600E519A7 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F86C1D4426F9618500BA2418 = {
+			isa = PBXGroup;
+			children = (
+				F86C1D4F26F9618500BA2418 /* CitySightApp */,
+				F86C1D4E26F9618500BA2418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F86C1D4E26F9618500BA2418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F86C1D4D26F9618500BA2418 /* CitySightApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F86C1D4F26F9618500BA2418 /* CitySightApp */ = {
+			isa = PBXGroup;
+			children = (
+				F84AD08D27012BF300E519A7 /* Helpers */,
+				F86C1D5026F9618500BA2418 /* CitySightApp.swift */,
+				F86C1D6226F961E300BA2418 /* Models */,
+				F86C1D6326F961EF00BA2418 /* ViewModel */,
+				F86C1D6426F961FD00BA2418 /* Views */,
+				F86C1D5426F9618700BA2418 /* Assets.xcassets */,
+				F86C1D5926F9618700BA2418 /* Info.plist */,
+				F86C1D5626F9618700BA2418 /* Preview Content */,
+			);
+			path = CitySightApp;
+			sourceTree = "<group>";
+		};
+		F86C1D5626F9618700BA2418 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F86C1D5726F9618700BA2418 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F86C1D6226F961E300BA2418 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F84AD0872701260B00E519A7 /* Business.swift */,
+				F84AD08A2701269B00E519A7 /* BusinessSearch.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F86C1D6326F961EF00BA2418 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F86C1D6626F9631B00BA2418 /* ContentModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F86C1D6426F961FD00BA2418 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F835C7F22732394D0019CC64 /* Title */,
+				F8908A252716929A006F92AC /* Map */,
+				F86C1D5226F9618500BA2418 /* LunchView.swift */,
+				F8908A112703F751006F92AC /* HomeView.swift */,
+				F8908A1627042197006F92AC /* BusinessListView.swift */,
+				F8908A1927042969006F92AC /* SectionHeaderView.swift */,
+				F8908A1C270D4285006F92AC /* BusinessRowView.swift */,
+				F8908A1F27128CA4006F92AC /* ImageLoader.swift */,
+				F8908A2227151FF7006F92AC /* BusinessDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8908A252716929A006F92AC /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F8908A26271692B6006F92AC /* BusinessMapView.swift */,
+				F835C7EF273237EA0019CC64 /* DirectionsView.swift */,
+				F835C7F72732411B0019CC64 /* DirectionsMap.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F86C1D4C26F9618500BA2418 /* CitySightApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F86C1D5C26F9618700BA2418 /* Build configuration list for PBXNativeTarget "CitySightApp" */;
+			buildPhases = (
+				F86C1D4926F9618500BA2418 /* Sources */,
+				F86C1D4A26F9618500BA2418 /* Frameworks */,
+				F86C1D4B26F9618500BA2418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CitySightApp;
+			productName = CitySightApp;
+			productReference = F86C1D4D26F9618500BA2418 /* CitySightApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F86C1D4526F9618500BA2418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F86C1D4C26F9618500BA2418 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F86C1D4826F9618500BA2418 /* Build configuration list for PBXProject "CitySightApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F86C1D4426F9618500BA2418;
+			productRefGroup = F86C1D4E26F9618500BA2418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F86C1D4C26F9618500BA2418 /* CitySightApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F86C1D4B26F9618500BA2418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86C1D5826F9618700BA2418 /* Preview Assets.xcassets in Resources */,
+				F86C1D5526F9618700BA2418 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F86C1D4926F9618500BA2418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F835C7F82732411B0019CC64 /* DirectionsMap.swift in Sources */,
+				F8908A27271692B6006F92AC /* BusinessMapView.swift in Sources */,
+				F86C1D5326F9618500BA2418 /* LunchView.swift in Sources */,
+				F835C7F0273237EA0019CC64 /* DirectionsView.swift in Sources */,
+				F8908A2327151FF7006F92AC /* BusinessDetailView.swift in Sources */,
+				F8908A1D270D4285006F92AC /* BusinessRowView.swift in Sources */,
+				F8908A122703F751006F92AC /* HomeView.swift in Sources */,
+				F84AD0882701260B00E519A7 /* Business.swift in Sources */,
+				F86C1D5126F9618500BA2418 /* CitySightApp.swift in Sources */,
+				F8908A2027128CA4006F92AC /* ImageLoader.swift in Sources */,
+				F835C7F4273239620019CC64 /* BusinessTitle.swift in Sources */,
+				F8908A1A27042969006F92AC /* SectionHeaderView.swift in Sources */,
+				F8908A1727042197006F92AC /* BusinessListView.swift in Sources */,
+				F84AD08B2701269B00E519A7 /* BusinessSearch.swift in Sources */,
+				F86C1D6726F9631B00BA2418 /* ContentModel.swift in Sources */,
+				F84AD08F27012C0600E519A7 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F86C1D5A26F9618700BA2418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F86C1D5B26F9618700BA2418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F86C1D5D26F9618700BA2418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CitySightApp/Preview Content\"";
+				DEVELOPMENT_TEAM = R9L5T3S65D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CitySightApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emen.CitySightApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F86C1D5E26F9618700BA2418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CitySightApp/Preview Content\"";
+				DEVELOPMENT_TEAM = R9L5T3S65D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CitySightApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emen.CitySightApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F86C1D4826F9618500BA2418 /* Build configuration list for PBXProject "CitySightApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86C1D5A26F9618700BA2418 /* Debug */,
+				F86C1D5B26F9618700BA2418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F86C1D5C26F9618700BA2418 /* Build configuration list for PBXNativeTarget "CitySightApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86C1D5D26F9618700BA2418 /* Debug */,
+				F86C1D5E26F9618700BA2418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F86C1D4526F9618500BA2418 /* Project object */;
+}
